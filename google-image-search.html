@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="google-search.css">
+    <title>Google Images Search</title>
+</head>
+<body>
+    <header class="top-panel">
+        <div class="word-link-box">
+            <a class="word-link" href="google-search.html">Google Search</a>
+            <a class="word-link" href="google-advanced-search.html">Google Advanced Search</a>
+        </div>
+    </header>
+    <main class="main-panel">
+        <div class="logo-box">
+            <img class="google_logo" src="google-logo.png"> 
+            <span class="image-word">images</span>
+        </div>
+        <form action="https://www.google.com/search" class="search-form"> 
+            <div class="search-container">
+                <div class="magnifying-glass-icon">
+                    <svg height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" /></g></svg>
+                </div>
+                <input class="text-container" type="text" name="q" required>
+            </div>
+            <input type="hidden" name="tbm" value="isch" />
+            <div class="buttons-box">
+                <input class="search-button" type="submit" value="Google Image Search">          
+            </div>
+        </form>
+    </main>
+</body>
+</html>
